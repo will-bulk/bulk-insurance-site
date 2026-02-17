@@ -13,8 +13,8 @@ export default function TankerInsurancePage() {
       title="Tanker Trailer Insurance"
       subtitle="Liquid, Fuel & Chemicals"
       description="Tanker operations carry some of the highest-risk commodities on the road. Bulk Insurance Group provides specialized tanker insurance programs that address the unique liability, environmental, and hazmat exposures of liquid bulk hauling."
-      heroImage="/images/fuel-tanker.jpg"
-      midImage="/images/industrial-plant.jpg"
+      heroImage="/images/tanker-truck.jpg"
+      midImage="/images/semi-on-road.jpg"
       trailerIcon="/images/trailer-tanker.png"
       features={[
         { title: "Hazmat Expertise", description: "Many tanker commodities require hazmat endorsements. We work with carriers experienced in hazardous materials coverage." },

@@ -13,8 +13,8 @@ export default function SuretyBondsPage() {
       title="Surety Bonds"
       subtitle="FMCSA Compliance"
       description="Surety bonds are required by the FMCSA for carriers and brokers to maintain their operating authority. Bulk Insurance Group provides fast, affordable surety bonds — BMC-84 for carriers and BMC-85 for freight brokers — so you stay compliant and keep rolling."
-      heroImage="/images/handshake-deal.jpg"
-      midImage="/images/business-handshake.jpg"
+      heroImage="/images/sunset-highway.jpg"
+      midImage="/images/grain-silos.jpg"
       features={[
         { title: "BMC-84 Carrier Bonds", description: "Required for motor carriers to maintain operating authority with the FMCSA. We provide fast issuance and competitive rates." },
         { title: "BMC-85 Broker Bonds", description: "Freight brokers need a $75,000 surety bond or trust fund. We offer competitively priced BMC-85 bonds with quick turnaround." },

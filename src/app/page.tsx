@@ -327,8 +327,8 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="/images/grain-elevator.jpg"
-                alt="Grain elevator - bulk commodity infrastructure"
+                src="/images/wheat-field-golden.jpg"
+                alt="Golden wheat field - bulk commodity agriculture"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -356,16 +356,16 @@ export default function HomePage() {
           {/* Community Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="rounded-xl overflow-hidden shadow-md">
-              <img src="/images/truck-highway.jpg" alt="Semi truck on highway" className="w-full h-48 object-cover" />
+              <img src="/images/freight-truck.jpg" alt="Freight truck hauling bulk" className="w-full h-48 object-cover" />
             </div>
             <div className="rounded-xl overflow-hidden shadow-md">
-              <img src="/images/grain-field.jpg" alt="Grain field at harvest" className="w-full h-48 object-cover" />
+              <img src="/images/wheat-harvest.jpg" alt="Wheat harvest" className="w-full h-48 object-cover" />
             </div>
             <div className="rounded-xl overflow-hidden shadow-md">
-              <img src="/images/construction-site.jpg" alt="Construction site with heavy equipment" className="w-full h-48 object-cover" />
+              <img src="/images/grain-silos.jpg" alt="Grain silos and elevators" className="w-full h-48 object-cover" />
             </div>
             <div className="rounded-xl overflow-hidden shadow-md">
-              <img src="/images/farm-landscape.jpg" alt="Farm landscape" className="w-full h-48 object-cover" />
+              <img src="/images/corn-field.jpg" alt="Corn field" className="w-full h-48 object-cover" />
             </div>
           </div>
         </div>

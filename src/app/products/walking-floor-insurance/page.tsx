@@ -13,8 +13,8 @@ export default function WalkingFloorInsurancePage() {
       title="Walking Floor Trailer Insurance"
       subtitle="Biomass, Waste & Recyclables"
       description="Walking floor trailers handle some of the most diverse commodities in bulk hauling — from wood chips and biomass to recyclables and municipal waste. Bulk Insurance Group understands the unique operational risks and provides tailored coverage solutions."
-      heroImage="/images/farm-landscape.jpg"
-      midImage="/images/open-highway.jpg"
+      heroImage="/images/rural-road.jpg"
+      midImage="/images/farmland-aerial.jpg"
       trailerIcon="/images/trailer-walking-floor.png"
       features={[
         { title: "Diverse Commodity Coverage", description: "Walking floors haul everything from wood chips to recycling. Our policies cover the wide range of commodities you may transport." },

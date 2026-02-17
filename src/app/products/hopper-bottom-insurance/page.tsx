@@ -13,8 +13,8 @@ export default function HopperBottomInsurancePage() {
       title="Hopper Bottom Trailer Insurance"
       subtitle="Grain, Feed & Fertilizer"
       description="Hopper bottom trailers are the backbone of America's agricultural supply chain. Bulk Insurance Group provides specialized coverage designed for haulers transporting grain, feed, fertilizer, seed, and other bulk ag commodities."
-      heroImage="/images/grain-field.jpg"
-      midImage="/images/grain-elevator.jpg"
+      heroImage="/images/wheat-harvest.jpg"
+      midImage="/images/grain-silos.jpg"
       trailerIcon="/images/trailer-hopper.png"
       features={[
         { title: "Ag Commodity Expertise", description: "We understand the seasonal rhythms, shipper requirements, and unique risks of hauling agricultural commodities in hopper bottoms." },
