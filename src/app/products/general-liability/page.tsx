@@ -13,8 +13,8 @@ export default function GeneralLiabilityPage() {
       title="General Liability Insurance"
       subtitle="Business Protection"
       description="General liability insurance protects your trucking business against third-party claims for bodily injury, property damage, and personal injury. It's essential coverage that every bulk hauling operation needs — and we make sure you have the right limits."
-      heroImage="/images/roger-zima.jpg"
-      secondaryImage="/images/insurance-savings.jpg"
+      heroImage="/images/business-handshake.jpg"
+      midImage="/images/business-charts.jpg"
       features={[
         { title: "Industry-Specific Coverage", description: "Not all GL policies are created equal. Ours are written with the specific exposures of bulk trucking operations in mind." },
         { title: "Shipper & Broker Requirements", description: "Many shippers and brokers require specific GL limits. We ensure your policy meets all contractual insurance requirements." },

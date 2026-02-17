@@ -13,8 +13,8 @@ export default function CargoInsurancePage() {
       title="Cargo & Freight Insurance"
       subtitle="Protect Your Loads"
       description="Your cargo is your livelihood. Bulk Insurance Group provides motor truck cargo insurance specifically designed for bulk commodity loads — protecting you against loss, damage, and contamination from pickup to delivery."
-      heroImage="/images/growing-fleet.jpg"
-      secondaryImage="/images/carrier-thumb.png"
+      heroImage="/images/semi-truck-sunset.jpg"
+      midImage="/images/grain-field.jpg"
       features={[
         { title: "Bulk Commodity Expertise", description: "From grain and fertilizer to aggregate and cement, we know the specific cargo risks for every bulk commodity type." },
         { title: "Contamination Protection", description: "Cross-contamination between loads is a real risk in bulk hauling. Our cargo policies address commodity-specific contamination exposures." },

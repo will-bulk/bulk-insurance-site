@@ -13,8 +13,8 @@ export default function PneumaticInsurancePage() {
       title="Pneumatic Trailer Insurance"
       subtitle="Dry Bulk, Cement & Powder"
       description="Pneumatic trailers require specialized expertise — from pressurized unloading systems to product contamination risks. Bulk Insurance Group provides coverage built specifically for dry bulk haulers transporting cement, flour, sugar, and specialty powders."
-      heroImage="/images/underground-city.jpg"
-      secondaryImage="/images/timpte-manufacturing.jpg"
+      heroImage="/images/industrial-plant.jpg"
+      midImage="/images/road-sunset.jpg"
       trailerIcon="/images/trailer-pneumatic.png"
       features={[
         { title: "Pressurized System Expertise", description: "We understand the unique risks of pneumatic blower systems, including pressure-related incidents and equipment failures." },

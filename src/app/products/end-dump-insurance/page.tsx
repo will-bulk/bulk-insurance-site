@@ -13,8 +13,8 @@ export default function EndDumpInsurancePage() {
       title="End Dump Trailer Insurance"
       subtitle="Aggregate, Sand & Gravel"
       description="End dump operations face unique risks from construction sites to quarries. Bulk Insurance Group provides specialized coverage for haulers transporting aggregate, sand, gravel, asphalt, and other construction materials."
-      heroImage="/images/sand-frac.jpg"
-      secondaryImage="/images/road-salt.jpg"
+      heroImage="/images/construction-site.jpg"
+      midImage="/images/gravel-quarry.jpg"
       trailerIcon="/images/trailer-end-dump.png"
       features={[
         { title: "Construction Site Expertise", description: "We understand the risks of operating on active construction sites, quarries, and unimproved roads that end dump haulers face daily." },

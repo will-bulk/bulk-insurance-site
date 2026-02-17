@@ -13,8 +13,8 @@ export default function FleetInsurancePage() {
       title="Fleet Insurance for Bulk Haulers"
       subtitle="Multi-Truck Fleet Solutions"
       description="Growing your fleet shouldn't mean growing your headaches. Bulk Insurance Group provides comprehensive fleet insurance programs with volume discounts, simplified management, and the specialized expertise that bulk hauling operations demand."
-      heroImage="/images/red-fleet.jpg"
-      secondaryImage="/images/eagle-logistics-fleet.jpg"
+      heroImage="/images/truck-fleet-lot.jpg"
+      midImage="/images/truck-highway.jpg"
       features={[
         { title: "Volume Discounts", description: "The more trucks you insure with us, the more you save. Our fleet programs offer significant volume-based discounts across all coverages." },
         { title: "Simplified Fleet Management", description: "One agency, one renewal, one point of contact. We make managing insurance for multiple trucks simple and efficient." },

@@ -13,8 +13,8 @@ export default function TruckingInsurancePage() {
       title="Trucking Insurance for Bulk Haulers"
       subtitle="Commercial Trucking"
       description="Comprehensive commercial trucking insurance designed specifically for bulk commodity haulers. We understand the unique risks of hauling grain, feed, fertilizer, aggregate, and more — and we build policies that protect you where it matters most."
-      heroImage="/images/bulk-hauling-start.jpg"
-      secondaryImage="/images/trucker-story.jpg"
+      heroImage="/images/truck-highway.jpg"
+      midImage="/images/open-highway.jpg"
       features={[
         { title: "Bulk Hauling Specialists", description: "We exclusively serve bulk trucking operations. Our agents understand your commodities, routes, and risks better than any general agency." },
         { title: "50+ Carrier Options", description: "Access to more than 50 A-rated insurance carriers means more competitive quotes and better coverage options for your operation." },

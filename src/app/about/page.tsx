@@ -14,7 +14,7 @@ export default function AboutPage() {
       <section className="relative text-white overflow-hidden min-h-[500px] flex items-center">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(/images/bulk-freight-conference.jpg)' }}
+          style={{ backgroundImage: 'url(/images/open-highway.jpg)' }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary-950/95 via-primary-950/85 to-primary-950/70" />
         <div className="relative max-w-7xl mx-auto px-4 py-20 md:py-28 w-full">
@@ -93,19 +93,19 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <div className="rounded-xl overflow-hidden shadow-md row-span-2">
-              <img src="/images/red-fleet.jpg" alt="Custom red fleet" className="w-full h-full object-cover" />
+              <img src="/images/truck-highway.jpg" alt="Semi truck on highway" className="w-full h-full object-cover" />
             </div>
             <div className="rounded-xl overflow-hidden shadow-md">
-              <img src="/images/timpte-manufacturing.jpg" alt="Timpte trailer manufacturing" className="w-full h-48 object-cover" />
+              <img src="/images/grain-elevator.jpg" alt="Grain elevator" className="w-full h-48 object-cover" />
             </div>
             <div className="rounded-xl overflow-hidden shadow-md">
-              <img src="/images/hopper-battle-timpte.jpg" alt="Hopper bottom trailers" className="w-full h-48 object-cover" />
+              <img src="/images/construction-site.jpg" alt="Construction site" className="w-full h-48 object-cover" />
             </div>
             <div className="rounded-xl overflow-hidden shadow-md">
-              <img src="/images/tri-state-commodities.jpg" alt="Tri-State Commodities" className="w-full h-48 object-cover" />
+              <img src="/images/farm-landscape.jpg" alt="Farm landscape" className="w-full h-48 object-cover" />
             </div>
             <div className="rounded-xl overflow-hidden shadow-md">
-              <img src="/images/family-ag-operation.jpg" alt="Family agriculture operation" className="w-full h-48 object-cover" />
+              <img src="/images/grain-field.jpg" alt="Grain field at harvest" className="w-full h-48 object-cover" />
             </div>
           </div>
         </div>
@@ -218,16 +218,16 @@ export default function AboutPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-xl overflow-hidden shadow-md">
-                <img src="/images/roger-zima.jpg" alt="Roger Zima - 4 Million Miles Accident Free" className="w-full h-40 object-cover" />
+                <img src="/images/semi-truck-sunset.jpg" alt="Semi truck on the road" className="w-full h-40 object-cover" />
               </div>
               <div className="rounded-xl overflow-hidden shadow-md">
-                <img src="/images/growing-fleet.jpg" alt="Growing from 2 to 14 trucks" className="w-full h-40 object-cover" />
+                <img src="/images/truck-fleet-lot.jpg" alt="Fleet of trucks" className="w-full h-40 object-cover" />
               </div>
               <div className="rounded-xl overflow-hidden shadow-md">
-                <img src="/images/gfi-transport.jpg" alt="GFI Transport feature" className="w-full h-40 object-cover" />
+                <img src="/images/road-sunset.jpg" alt="Open road at sunset" className="w-full h-40 object-cover" />
               </div>
               <div className="rounded-xl overflow-hidden shadow-md">
-                <img src="/images/eagle-logistics-fleet.jpg" alt="Eagle Logistics fleet" className="w-full h-40 object-cover" />
+                <img src="/images/industrial-plant.jpg" alt="Industrial facility" className="w-full h-40 object-cover" />
               </div>
             </div>
           </div>

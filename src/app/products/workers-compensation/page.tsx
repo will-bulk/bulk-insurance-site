@@ -13,8 +13,8 @@ export default function WorkersCompensationPage() {
       title="Workers Compensation Insurance"
       subtitle="Employee Protection"
       description="Your drivers are the backbone of your operation. Workers compensation insurance protects them — and you — when injuries happen on the job. Bulk Insurance Group provides comp programs specifically designed for the physical demands of bulk trucking."
-      heroImage="/images/tri-state-commodities.jpg"
-      secondaryImage="/images/conference-2026.jpg"
+      heroImage="/images/worker-safety.jpg"
+      midImage="/images/open-highway.jpg"
       features={[
         { title: "Trucking-Specific Programs", description: "We work with carriers that understand the physical demands of bulk trucking — loading, unloading, tarping, and long hours behind the wheel." },
         { title: "Competitive Rates", description: "Workers comp rates vary dramatically between carriers. We shop aggressively to find the best rates for your operation's class codes." },

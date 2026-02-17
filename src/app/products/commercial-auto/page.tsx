@@ -13,8 +13,8 @@ export default function CommercialAutoPage() {
       title="Commercial Auto Insurance"
       subtitle="Business Vehicle Protection"
       description="Beyond your semis and trailers, your business relies on pickups, service vehicles, and support equipment. Bulk Insurance Group provides commercial auto coverage for every vehicle in your operation — all under one roof with your trucking insurance."
-      heroImage="/images/purple-peterbilt.jpg"
-      secondaryImage="/images/make-money-trucking.jpg"
+      heroImage="/images/semi-truck-sunset.jpg"
+      midImage="/images/road-sunset.jpg"
       features={[
         { title: "Full Fleet Coverage", description: "From semi trucks to pickup trucks, we cover every commercial vehicle your business operates under one comprehensive policy." },
         { title: "Bundled Savings", description: "Combine your commercial auto with your trucking insurance, cargo, and liability for significant multi-policy discounts." },
