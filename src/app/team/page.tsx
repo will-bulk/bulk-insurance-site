@@ -122,14 +122,16 @@ const accountManagement: TeamMember[] = [
 function TeamCard({ member }: { member: TeamMember }) {
   return (
     <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
-      <div className="aspect-square overflow-hidden bg-gray-100">
-        <img
-          src={member.image}
-          alt={member.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-        />
+      <div className="flex justify-center pt-8 pb-2 bg-gray-50">
+        <div className="w-40 h-40 rounded-full overflow-hidden bg-gray-200">
+          <img
+            src={member.image}
+            alt={member.name}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+        </div>
       </div>
-      <div className="p-6">
+      <div className="p-6 text-center">
         <h3 className="text-xl font-bold text-navy-900">{member.name}</h3>
         <p className="text-brand-green font-semibold text-sm mt-1">{member.title}</p>
         <div className="mt-4 space-y-2">
