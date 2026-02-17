@@ -149,38 +149,40 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team */}
+      {/* Team Preview */}
       <section id="team" className="py-20 bg-navy-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="section-heading">Our Team</h2>
-            <p className="section-subheading">Industry professionals dedicated to protecting bulk haulers.</p>
+            <p className="section-subheading">12 industry professionals dedicated to protecting bulk haulers.</p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="text-center">
-              <div className="w-32 h-32 bg-primary-100 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
-                <span className="text-3xl font-bold text-primary-400">LK</span>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
+            {[
+              { name: 'Jared Flinn', title: 'Founder & CEO', image: '/images/team-jared.png' },
+              { name: 'Larry Hurt', title: 'Co-Founder & CEO', image: '/images/team-larry.png' },
+              { name: 'Brett Williams', title: 'Sales Manager', image: '/images/team-brett.jpg' },
+              { name: 'Sarah Fina', title: 'Director of Account Mgmt', image: '/images/team-sarah.png' },
+            ].map((member) => (
+              <div key={member.name} className="text-center group">
+                <div className="w-36 h-36 rounded-full mx-auto mb-4 overflow-hidden shadow-lg ring-4 ring-white">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-navy-900">{member.name}</h3>
+                <p className="text-brand-green font-medium text-sm">{member.title}</p>
               </div>
-              <h3 className="text-lg font-bold text-navy-900">Levi Keatts</h3>
-              <p className="text-brand-green font-medium">Insurance Producer</p>
-              <p className="text-navy-500 text-sm mt-2">Specializing in bulk trucking insurance with deep knowledge of commodity-specific coverage needs.</p>
-            </div>
-            <div className="text-center">
-              <div className="w-32 h-32 bg-primary-100 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
-                <span className="text-3xl font-bold text-primary-400">BW</span>
-              </div>
-              <h3 className="text-lg font-bold text-navy-900">Brett Williams</h3>
-              <p className="text-brand-green font-medium">Sales Manager</p>
-              <p className="text-navy-500 text-sm mt-2">Leading our sales team with a focus on building long-term relationships with bulk haulers nationwide.</p>
-            </div>
-            <div className="text-center">
-              <div className="w-32 h-32 bg-primary-100 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
-                <span className="text-3xl font-bold text-primary-400">JF</span>
-              </div>
-              <h3 className="text-lg font-bold text-navy-900">Jared Flinn</h3>
-              <p className="text-brand-green font-medium">Industry Relations</p>
-              <p className="text-navy-500 text-sm mt-2">Connecting with the bulk hauling community through BulkLoads and building industry partnerships.</p>
-            </div>
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <Link href="/team" className="inline-flex items-center gap-2 bg-navy-900 hover:bg-navy-800 text-white font-semibold py-3 px-8 rounded-lg transition-colors shadow-md">
+              Meet the Full Team
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>

@@ -28,7 +28,7 @@ const resourceLinks = [
 
 const aboutLinks = [
   { label: 'About Us', href: '/about' },
-  { label: 'Our Team', href: '/about#team' },
+  { label: 'Our Team', href: '/team' },
   { label: 'Testimonials', href: '/about#testimonials' },
 ];
 
