@@ -44,13 +44,19 @@ export default function HomePage() {
     <>
       {/* Hero Section */}
       <section className="relative text-white overflow-hidden min-h-[600px] flex items-center">
-        {/* Background image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(/truck-photo.avif)' }}
-        />
+        {/* Background video */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          poster="/images/freight-truck.jpg"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
         {/* Dark overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-primary-950/95 via-primary-950/85 to-primary-950/70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary-950/90 via-primary-950/80 to-primary-950/60" />
         
         <div className="relative max-w-7xl mx-auto px-4 py-24 md:py-32 lg:py-40 w-full">
           <div className="max-w-4xl">

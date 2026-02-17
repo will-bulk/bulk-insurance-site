@@ -11,11 +11,17 @@ export default function ContactPage() {
     <>
       {/* Hero */}
       <section className="relative text-white overflow-hidden min-h-[400px] flex items-center">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(/images/freight-truck.jpg)' }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary-950/95 via-primary-950/85 to-primary-950/70" />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          poster="/images/freight-truck.jpg"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary-950/90 via-primary-950/80 to-primary-950/60" />
         <div className="relative max-w-7xl mx-auto px-4 py-20 w-full">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>

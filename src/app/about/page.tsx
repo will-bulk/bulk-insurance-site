@@ -10,13 +10,19 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      {/* Hero with background image */}
+      {/* Hero with background video */}
       <section className="relative text-white overflow-hidden min-h-[500px] flex items-center">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(/images/wheat-field-golden.jpg)' }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary-950/95 via-primary-950/85 to-primary-950/70" />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          poster="/images/wheat-field-golden.jpg"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary-950/90 via-primary-950/80 to-primary-950/60" />
         <div className="relative max-w-7xl mx-auto px-4 py-20 md:py-28 w-full">
           <div className="max-w-3xl">
             <div className="inline-block bg-brand-green/20 text-brand-green px-4 py-1 rounded-full text-sm font-semibold mb-4">
